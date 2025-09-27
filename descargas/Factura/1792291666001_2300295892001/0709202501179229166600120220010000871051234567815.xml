@@ -1,0 +1,184 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>0709202501179229166600120220010000871051234567815</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>0709202501179229166600120220010000871051234567815</numeroAutorizacion><fechaAutorizacion>2025-09-07T13:57:48-05:00</fechaAutorizacion><ambiente>PRODUCCIÓN</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;factura id="comprobante" version="1.1.0"&gt; 
+
+  &lt;infoTributaria&gt; 
+    &lt;ambiente&gt;2&lt;/ambiente&gt; 
+    &lt;tipoEmision&gt;1&lt;/tipoEmision&gt; 
+    &lt;razonSocial&gt;NOVISOLUTIONS CIA. LTDA.&lt;/razonSocial&gt; 
+    &lt;nombreComercial&gt;NOVICOMPU&lt;/nombreComercial&gt; 
+    &lt;ruc&gt;1792291666001&lt;/ruc&gt; 
+    &lt;claveAcceso&gt;0709202501179229166600120220010000871051234567815&lt;/claveAcceso&gt; 
+    &lt;codDoc&gt;01&lt;/codDoc&gt; 
+    &lt;estab&gt;022&lt;/estab&gt; 
+    &lt;ptoEmi&gt;001&lt;/ptoEmi&gt; 
+    &lt;secuencial&gt;000087105&lt;/secuencial&gt; 
+    &lt;dirMatriz&gt;Calle N73 Lote 101 y Mariano Paredes&lt;/dirMatriz&gt; 
+  &lt;/infoTributaria&gt; 
+
+  &lt;infoFactura&gt; 
+    &lt;fechaEmision&gt;07/09/2025&lt;/fechaEmision&gt; 
+    &lt;dirEstablecimiento&gt;Calle N73 Lote 101 y Mariano Paredes&lt;/dirEstablecimiento&gt; 
+    &lt;contribuyenteEspecial&gt;727&lt;/contribuyenteEspecial&gt; 
+    &lt;obligadoContabilidad&gt;SI&lt;/obligadoContabilidad&gt; 
+    &lt;tipoIdentificacionComprador&gt;04&lt;/tipoIdentificacionComprador&gt; 
+    &lt;razonSocialComprador&gt;ADRIAN BECERRA&lt;/razonSocialComprador&gt; 
+    &lt;identificacionComprador&gt;2300295892001&lt;/identificacionComprador&gt; 
+    &lt;direccionComprador&gt;COOP. 9 DE DICIEMBRE&lt;/direccionComprador&gt; 
+    &lt;totalSinImpuestos&gt;8.30&lt;/totalSinImpuestos&gt; 
+    &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt; 
+    &lt;totalConImpuestos&gt; 
+      &lt;totalImpuesto&gt; 
+        &lt;codigo&gt;2&lt;/codigo&gt; 
+        &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt; 
+        &lt;baseImponible&gt;8.30&lt;/baseImponible&gt; 
+        &lt;valor&gt;1.25&lt;/valor&gt; 
+      &lt;/totalImpuesto&gt; 
+    &lt;/totalConImpuestos&gt; 
+    &lt;propina&gt;0.00&lt;/propina&gt; 
+    &lt;importeTotal&gt;9.55&lt;/importeTotal&gt; 
+    &lt;moneda&gt;US&lt;/moneda&gt; 
+    &lt;pagos&gt; 
+      &lt;pago&gt; 
+        &lt;formaPago&gt;20&lt;/formaPago&gt; 
+        &lt;total&gt;9.54&lt;/total&gt; 
+        &lt;plazo&gt;0&lt;/plazo&gt; 
+        &lt;unidadTiempo&gt;días&lt;/unidadTiempo&gt; 
+      &lt;/pago&gt; 
+      &lt;pago&gt; 
+        &lt;formaPago&gt;01&lt;/formaPago&gt; 
+        &lt;total&gt;0.01&lt;/total&gt; 
+        &lt;plazo&gt;0&lt;/plazo&gt; 
+        &lt;unidadTiempo&gt;días&lt;/unidadTiempo&gt; 
+      &lt;/pago&gt; 
+    &lt;/pagos&gt; 
+  &lt;/infoFactura&gt; 
+
+  &lt;detalles&gt; 
+    &lt;detalle&gt; 
+      &lt;codigoPrincipal&gt;1BSM145&lt;/codigoPrincipal&gt; 
+      &lt;codigoAuxiliar&gt;1BSM145&lt;/codigoAuxiliar&gt; 
+      &lt;descripcion&gt;Cable de Red Ethernet Cat6 de 30mts&lt;/descripcion&gt; 
+      &lt;cantidad&gt;1.00&lt;/cantidad&gt; 
+      &lt;precioUnitario&gt;8.3000&lt;/precioUnitario&gt; 
+      &lt;descuento&gt;0.00&lt;/descuento&gt; 
+      &lt;precioTotalSinImpuesto&gt;8.30&lt;/precioTotalSinImpuesto&gt; 
+      &lt;impuestos&gt; 
+        &lt;impuesto&gt; 
+          &lt;codigo&gt;2&lt;/codigo&gt; 
+          &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt; 
+          &lt;tarifa&gt;15.00&lt;/tarifa&gt; 
+          &lt;baseImponible&gt;8.30&lt;/baseImponible&gt; 
+          &lt;valor&gt;1.25&lt;/valor&gt; 
+        &lt;/impuesto&gt; 
+      &lt;/impuestos&gt; 
+    &lt;/detalle&gt; 
+  &lt;/detalles&gt; 
+
+  &lt;infoAdicional&gt; 
+    &lt;campoAdicional nombre="Dirección"&gt;COOP. 9 DE DICIEMBRE&lt;/campoAdicional&gt; 
+    &lt;campoAdicional nombre="Teléfono"&gt;0963109845&lt;/campoAdicional&gt; 
+    &lt;campoAdicional nombre="Email"&gt;adrianmay05@outlook.com&lt;/campoAdicional&gt; 
+    &lt;campoAdicional nombre="Gran Contribuyente"&gt;Gran Contribuyente según NAC-ADROGEC24-00000546-M&lt;/campoAdicional&gt; 
+  &lt;/infoAdicional&gt; 
+
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature216004"&gt;
+&lt;ds:SignedInfo Id="Signature-SignedInfo863475"&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"&gt;&lt;/ds:CanonicalizationMethod&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"&gt;&lt;/ds:SignatureMethod&gt;
+&lt;ds:Reference Id="SignedPropertiesID353072" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature216004-SignedProperties1015824"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;HNrGjf2PoRgv8s0bA51hv4ikTWM=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference URI="#Certificate1818180"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;urMsvu962glEumiORxez0rg014s=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Id="Reference-ID-650996" URI="#comprobante"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"&gt;&lt;/ds:Transform&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;VnXfUc+OZPGGv4EijpFUvivEhhQ=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="SignatureValue935317"&gt;
+3rbKHqjXAlrJKWLF49rGP/h3crHb594oZnVA4S70I7fF1jmgniPDu6GNkIG/1GmaRI54EasMJDFZ
+NeBHxjfpRSv22+cV75FThXh+TFEVqUijEa5ePvDAbmmt/EfjwbndYekNVLfvuj+adLWf7XyqaevR
+LDon9aRfd5p1asg45XGvB8I0hXgXQ99PUEOZHtHU+LXT92lIs5gHoNWGDVYCKERpWwB8EZVCwcmo
+H4CKESlKYjybjZceFQ34lI3oBOAa5GK0T3AUMg/hDkCpbB6Elh8pkMTMg1EGCZM7+IbveYPtOkVK
+hfq6ZeRojsdVz7gYwW7mO8IJLeMurmIO/YOowQ==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo Id="Certificate1818180"&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIMJjCCCg6gAwIBAgIEZ+ktkTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDEyMDQyMTE5NDdaFw0yODEyMDQyMTE5NDdaMIGmMSQw
+IgYDVQQDDBtTVEFMSU4gUkVORSBTQUNPVE8gWkFNQlJBTk8xIDAeBgNVBAUTFzEzMDYzMzk2MTMt
+MDQxMjI0MTYyOTQxMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JN
+QUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAOHGplW0pm74x9SU5hAVn6/oU3GkP1HYj/BdMk/nD6f+
+93+rmJVt72os3iEa0fAY/o8UB33LtSfwXDkmqp35l1I20lTsNjtq+1ZYnyOdyYmAUTtTCYRmQsrO
+A2hXmB60NCBOTEL2RFZFCigHR9G0nPl2CbCDf2sUPE/p3o2ZFlm1gxO/iWvgIDdFJk5ljrO+4Ox7
+9k8SeMCOBliTIcpPV111WxKyJ6A6RXWCq9qnGNoVv9fIfOIk+K2vgsh/02w10psmP4YZ5ALbOf3K
+cCJWSKtrJ2/+QQnX3qD/OqcLTbQtgVa9qAsj7S9dxqZFYaWJOeZZ9fKsYUu4+SH4M9lH+xsCAwEA
+AaOCB2UwggdhMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8w
+WQYIKwYBBQUHAQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5u
+ZXQuZWMvZWpiY2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMIHPBgNVHS4EgccwgcQwgcGggb6ggbuG
+gbhsZGFwOi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENF
+UlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNB
+Q0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/ZGVsdGFSZXZv
+Y2F0aW9uTGlzdD9iYXNlMCEGA1UdEQQaMBiBFmdlcmVuY2lhQG5vdmljb21wdS5jb20wggEVBgNV
+HSAEggEMMIIBCDBiBgorBgEEAYKmcgIJMFQwUgYIKwYBBQUHAgIwRh5EAEMAZQByAHQAaQBmAGkA
+YwBhAGQAbwAgAGQAZQAgAFIAZQBwAHIAZQBzAGUAbgB0AGEAbgB0AGUAIABMAGUAZwBhAGwwgaEG
+CisGAQQBgqZyAgMwgZIwgY8GCCsGAQUFBwIBFoGCaHR0cHM6Ly93d3cuc2VjdXJpdHlkYXRhLm5l
+dC5lYy93cC1jb250ZW50L2Rvd25sb2Fkcy9Ob3JtYXRpdmFzL1BfZGVfQ2VydGlmaWNhZG9zL1Bv
+bGl0aWNhcyBkZSBDZXJ0aWZpY2FkbyBSZXByZXNlbnRhbnRlIExlZ2FsLnBkZjAdBgNVHSUEFjAU
+BggrBgEFBQcDAgYIKwYBBQUHAwQwggKiBgNVHR8EggKZMIIClTCB5aBBoD+GPWh0dHA6Ly9vY3Nw
+Z3cuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3CigZ+kgZww
+gZkxOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNVQkNBLTIgU0VDVVJJVFkg
+REFUQTEwMC4GA1UECwwnRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OMR0w
+GwYDVQQKDBRTRUNVUklUWSBEQVRBIFMuQS4gMjELMAkGA1UEBhMCRUMwgceggcSggcGGgb5sZGFw
+Oi8vbGRhcHNkY2EyLnNlY3VyaXR5ZGF0YS5uZXQuZWMvQ049QVVUT1JJREFEIERFIENFUlRJRklD
+QUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRBLE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBE
+RSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERBVEEgUy5BLiAyLEM9RUM/Y2VydGlmaWNhdGVSZXZv
+Y2F0aW9uTGlzdD9iYXNlMIHgoIHdoIHahoHXaHR0cHM6Ly9wb3J0YWwtb3BlcmFkb3IyLnNlY3Vy
+aXR5ZGF0YS5uZXQuZWMvZWpiY2EvcHVibGljd2ViL3dlYmRpc3QvY2VydGRpc3Q/Y21kPWNybCZp
+c3N1ZXI9Q049QVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VCQ0EtMiBTRUNVUklUWSBEQVRB
+LE9VPUVOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTixPPVNFQ1VSSVRZIERB
+VEEgUy5BLiAyLEM9RUMwHQYDVR0OBBYEFPZWwEVSednCV78xUbXsmXlgNJkYMCsGA1UdEAQkMCKA
+DzIwMjQxMjA0MjExOTQ3WoEPMjAyODEyMDQyMTE5NDdaMAsGA1UdDwQEAwIF4DAfBgorBgEEAYKm
+cgMFBBEMD0dFUkVOVEUgR0VORVJBTDAaBgorBgEEAYKmcgMBBAwMCjEzMDYzMzk2MTMwGAYKKwYB
+BAGCpnIDCQQKDAhQT05DRUFOTzARBgorBgEEAYKmcgMiBAMMAS4wKwYKKwYBBAGCpnIDBwQdDBtO
+NzMgTCAxMDEgWSBNQVJJQU5PIFBBUkVERVMwGwYKKwYBBAGCpnIDAgQNDAtTVEFMSU4gUkVORTAf
+BgorBgEEAYKmcgMgBBEMDzAwMjAwMTAwMDkxMjY3NjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgor
+BgEEAYKmcgMMBAkMB0VDVUFET1IwFgYKKwYBBAGCpnIDAwQIDAZTQUNPVE8wJgYKKwYBBAGCpnID
+CgQYDBZOT1ZJU09MVVRJT05TIENJQSBMVERBMB0GCisGAQQBgqZyAwsEDwwNMTc5MjI5MTY2NjAw
+MTARBgorBgEEAYKmcgMdBAMMAS4wGAYKKwYBBAGCpnIDBAQKDAhaQU1CUkFOTzAaBgorBgEEAYKm
+cgMIBAwMCjA5ODQ1ODkyMjQwDQYJKoZIhvcNAQELBQADggIBAIIr85yTg1IAMyV56w97bvQB/AoS
+uSGkyXlOxGVTajmJt8H481u6Cx0cH3TJzeP5DPpECaB1+cVz5Obsa+lfzbq/SBIDZmNrZo0fi8YP
+5MmVOYJAoffPn0tTtM7zwk6pLrVe6V+0vwx4xePWogVFWW7FaksHx6Mq6pgfrcO0WEgz3zf0Nkzi
+8KiR129uM8W/JdTKyJfhaI+RUl9CyHsKgl7R6rcy0fkJXFRSygFWci7DLJATY09JXh0FGVdWuFzj
+nKMtm6xfDvIJI1ZQmJMkLILTaghQ5gJ2VwYr3sdAJQoWwW30g+290vzpvt0sCuDvyZKvPVfRyJ68
+3JfeYYs8HwgMAqJ9PjKnjmAjqYQjBguKlpaeArd69YpG2kvwcMGsadyj64dKyoX6BQFBf/FZv8hG
+cYm3EoPROO2lJ/qj3TIFHOuUwmeKpS9RrvGWOrZ7LnoRNw68ZNENGUkIGuTKZ3URH9efqyfrsxxy
+vN73yz1hhfu8h14c5zbIC+zBpfvr6EELkVIcLLhTm6UDvFU0SASF6IlFoVK1aAbtIRTEV4iNq/QQ
+OjXM0IuoXdbpkdJ02Tbe7GszD0Srv/NO/RGmFOg43T8E+KtI8bFXqnyiV9+WsTLmmcN/7uuy4vyg
+apXWwpBpqMJfZ+zAVaz3j5YOkOgOnPb8K4TDttRGRhLctL2d
+&lt;/ds:X509Certificate&gt;
+&lt;/ds:X509Data&gt;
+&lt;ds:KeyValue&gt;
+&lt;ds:RSAKeyValue&gt;
+&lt;ds:Modulus&gt;
+4camVbSmbvjH1JTmEBWfr+hTcaQ/UdiP8F0yT+cPp/73f6uYlW3vaizeIRrR8Bj+jxQHfcu1J/Bc
+OSaqnfmXUjbSVOw2O2r7VlifI53JiYBRO1MJhGZCys4DaFeYHrQ0IE5MQvZEVkUKKAdH0bSc+XYJ
+sIN/axQ8T+nejZkWWbWDE7+Ja+AgN0UmTmWOs77g7Hv2TxJ4wI4GWJMhyk9XXXVbErInoDpFdYKr
+2qcY2hW/18h84iT4ra+CyH/TbDXSmyY/hhnkAts5/cpwIlZIq2snb/5BCdfeoP86pwtNtC2BVr2o
+CyPtL13GpkVhpYk55ln18qxhS7j5Ifgz2Uf7Gw==
+&lt;/ds:Modulus&gt;
+&lt;ds:Exponent&gt;AQAB&lt;/ds:Exponent&gt;
+&lt;/ds:RSAKeyValue&gt;
+&lt;/ds:KeyValue&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object Id="Signature216004-Object740857"&gt;&lt;etsi:QualifyingProperties Target="#Signature216004"&gt;&lt;etsi:SignedProperties Id="Signature216004-SignedProperties1015824"&gt;&lt;etsi:SignedSignatureProperties&gt;&lt;etsi:SigningTime&gt;2025-09-07T13:59:06-05:00&lt;/etsi:SigningTime&gt;&lt;etsi:SigningCertificate&gt;&lt;etsi:Cert&gt;&lt;etsi:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;&lt;ds:DigestValue&gt;HJlooibZWGJqoQnRtoSSW1/1/mY=&lt;/ds:DigestValue&gt;&lt;/etsi:CertDigest&gt;&lt;etsi:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;1743334801&lt;/ds:X509SerialNumber&gt;&lt;/etsi:IssuerSerial&gt;&lt;/etsi:Cert&gt;&lt;/etsi:SigningCertificate&gt;&lt;/etsi:SignedSignatureProperties&gt;&lt;etsi:SignedDataObjectProperties&gt;&lt;etsi:DataObjectFormat ObjectReference="#Reference-ID-650996"&gt;&lt;etsi:Description&gt;Description&lt;/etsi:Description&gt;&lt;etsi:MimeType&gt;text/xml&lt;/etsi:MimeType&gt;&lt;/etsi:DataObjectFormat&gt;&lt;/etsi:SignedDataObjectProperties&gt;&lt;/etsi:SignedProperties&gt;&lt;/etsi:QualifyingProperties&gt;&lt;/ds:Object&gt;&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse></soap:Body></soap:Envelope>

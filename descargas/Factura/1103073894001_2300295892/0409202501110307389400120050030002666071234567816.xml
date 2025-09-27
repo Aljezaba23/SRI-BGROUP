@@ -1,0 +1,353 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>0409202501110307389400120050030002666071234567816</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>0409202501110307389400120050030002666071234567816</numeroAutorizacion><fechaAutorizacion>2025-09-04T17:11:06-05:00</fechaAutorizacion><ambiente>PRODUCCIÓN</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;factura id="comprobante" version="1.1.0"&gt;
+    &lt;infoTributaria&gt;
+        &lt;ambiente&gt;2&lt;/ambiente&gt;
+        &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;
+        &lt;razonSocial&gt;QUICHIMBO DIAZ CENELIA DEL CISNE&lt;/razonSocial&gt;
+        &lt;nombreComercial&gt;ALDEAN SUPERMERCADOS&lt;/nombreComercial&gt;
+        &lt;ruc&gt;1103073894001&lt;/ruc&gt;
+        &lt;claveAcceso&gt;0409202501110307389400120050030002666071234567816&lt;/claveAcceso&gt;
+        &lt;codDoc&gt;01&lt;/codDoc&gt;
+        &lt;estab&gt;005&lt;/estab&gt;
+        &lt;ptoEmi&gt;003&lt;/ptoEmi&gt;
+        &lt;secuencial&gt;000266607&lt;/secuencial&gt;
+        &lt;dirMatriz&gt;ANTIZANA 145 Y EJERCITO ECUATORIANO&lt;/dirMatriz&gt;
+    &lt;/infoTributaria&gt;
+    &lt;infoFactura&gt;
+        &lt;fechaEmision&gt;04/09/2025&lt;/fechaEmision&gt;
+        &lt;dirEstablecimiento&gt;AV. LA LORENA S/N Y BAHIA DE CARAQUEZ&lt;/dirEstablecimiento&gt;
+        &lt;contribuyenteEspecial&gt;745&lt;/contribuyenteEspecial&gt;
+        &lt;obligadoContabilidad&gt;SI&lt;/obligadoContabilidad&gt;
+        &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;
+        &lt;razonSocialComprador&gt;BECERRA AUZ ADRIAN FERNANDO&lt;/razonSocialComprador&gt;
+        &lt;identificacionComprador&gt;2300295892&lt;/identificacionComprador&gt;
+        &lt;direccionComprador&gt;COOP 9 DE DICIEMBRE&lt;/direccionComprador&gt;
+        &lt;totalSinImpuestos&gt;13.86&lt;/totalSinImpuestos&gt;
+        &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;
+        &lt;totalConImpuestos&gt;
+            &lt;totalImpuesto&gt;
+                &lt;codigo&gt;2&lt;/codigo&gt;
+                &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                &lt;baseImponible&gt;4.81&lt;/baseImponible&gt;
+                &lt;valor&gt;0.72&lt;/valor&gt;
+            &lt;/totalImpuesto&gt;
+            &lt;totalImpuesto&gt;
+                &lt;codigo&gt;2&lt;/codigo&gt;
+                &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                &lt;baseImponible&gt;9.05&lt;/baseImponible&gt;
+                &lt;valor&gt;0.00&lt;/valor&gt;
+            &lt;/totalImpuesto&gt;
+        &lt;/totalConImpuestos&gt;
+        &lt;propina&gt;0.00&lt;/propina&gt;
+        &lt;importeTotal&gt;14.58&lt;/importeTotal&gt;
+        &lt;moneda&gt;DOLAR&lt;/moneda&gt;
+        &lt;pagos&gt;
+            &lt;pago&gt;
+                &lt;formaPago&gt;01&lt;/formaPago&gt;
+                &lt;total&gt;14.58&lt;/total&gt;
+                &lt;plazo&gt;0&lt;/plazo&gt;
+                &lt;unidadTiempo&gt;Dias&lt;/unidadTiempo&gt;
+            &lt;/pago&gt;
+        &lt;/pagos&gt;
+    &lt;/infoFactura&gt;
+    &lt;detalles&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861124400922&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* CHITO PANCHITO CARLI 163G FIES&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.6910&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.69&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="BT|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.69&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.10&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861063507881&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;PAN MODERNA 575G INTEGRAL&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.9507&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.95&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.95&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861002513102&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;ACEITE PALMA ORO 1L FDA&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.8430&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;3.68&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|12"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;3.68&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861018590555&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* PAPA RUFFLES 136G CRECEB (21)&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.6539&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.65&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.65&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.25&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7500810020067&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* TORTILLA TAKIS FUEGO 42G  BARC&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.6042&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.20&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|42"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.20&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.18&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;PANCHITO FAMILI&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* CHITO PANCHITO CARLI 67G FAM (&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.2909&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.29&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="BT|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.29&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.04&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7868000588323&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;DISCO EMPANADA 300G X24 LA PAY&lt;/descripcion&gt;
+            &lt;cantidad&gt;3.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.6840&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;2.04&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|3.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;2.04&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861012510054&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;YOG TONI MIX 92G CHIQUI FRUBOL&lt;/descripcion&gt;
+            &lt;cantidad&gt;3.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.4559&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.38&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|3.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.38&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861030590519&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* AGUA IMPERIAL 1500ML MANDARINA&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.9806&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.98&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.98&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.15&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+    &lt;/detalles&gt;
+    &lt;infoAdicional&gt;
+        &lt;campoAdicional nombre="Direccion"&gt;SANTO DOMINGO DE LOS COLORADOS - COOP. 9 DE DICIEMBRE&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Telefono"&gt;0963109445&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Plazo"&gt;CONTADO&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Email"&gt;.-,&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Email"&gt;}&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Vendedor"&gt;JESSICAV 04-SEP-2025 17:10:35&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="ICE FUNDA EXCENTO"&gt;Resolucion Nro. MPCEIP-SCIT-2020-0139-R&lt;/campoAdicional&gt;
+    &lt;/infoAdicional&gt;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature1009018"&gt;
+&lt;ds:SignedInfo Id="Signature-SignedInfo988228"&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"&gt;&lt;/ds:CanonicalizationMethod&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"&gt;&lt;/ds:SignatureMethod&gt;
+&lt;ds:Reference Id="SignedPropertiesID365395" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature1009018-SignedProperties450954"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;+fZ9bbRRh+/U9mm7ytAxy1v6RgQ=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference URI="#Certificate1203609"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;9lJnnbN3gvhaiPiTPzFguWQDDAs=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Id="Reference-ID-558589" URI="#comprobante"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"&gt;&lt;/ds:Transform&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;+XIXD4xy84mYnVzlqVtNZ5eB3kY=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="SignatureValue707315"&gt;
+CM/HYHLMDDfFC7v2GWMUlco7DLqqRuQxhxB5gipDVWP4Y/cF0Gr9UUdiKEbk8t0Vh9qg+OvbRFnT
+5TBpio3wk3jIZzlzS98CpkI14PIRFMeAcCDbFa2Kwym98B0YHCKZ0xXSE1PxiyWJ+4NdFyXi1MUq
+uAde6nh5CAu078mZ9bEy7ShN0wnoKmE1A+417nbvJhtS/4f23S4f0WCPry6BAipngPQVQEV9V9H2
+8r6IsvzOgMU+bfO+mW0S1jSaZJTIxqxetbcNTz1FMcp/78c2st/kcGq/2frtXqN1oJPDn86p8N2e
+jVD5kmWwuRPEUIZGP8aA4MQU3FG4H6SZFV/3jA==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo Id="Certificate1203609"&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIMBTCCCe2gAwIBAgIEYWH4qTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDAzMTIxNjQ2MDRaFw0yOTAzMTIxNjQ2MDRaMIGrMSkw
+JwYDVQQDDCBDRU5FTElBIERFTCBDSVNORSBRVUlDSElNQk8gRElBWjEgMB4GA1UEBRMXMTEwMzA3
+Mzg5NC0xMjAzMjQxMTU2MTkxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7WuK/uaMgeWjJVp1n+2fHEpgrqBVfexVPIsK
+bLkh5RhOHf+oftv6v5eW3HQx0Yt+C1pnusqoe/8rnqVcKndYKc66tV0ZIO4WRFuOVd8yiL80M7gi
+j7x8nTwUjkkBp42hNBRzTDcQM0hgzFlNt5ccibq8GYc7TJTJdurHcBuxwPlrWTwN32MfddNKP9dc
+CcpAux7htxP/d3Km6tqG43YBGhhnqsYerCqk0SCeVGrMPwUGYU+8XqjGQQrB0OKeoE8tfhCk07HG
+NQykuqUhM+BVj8T1jb/9FD40CGgtHX1N6PB+85tU+0K7BYU88R0SndCcGIB7qmNPU0nOJTLrFgnt
+6QIDAQABo4IHPzCCBzswDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42u
+Yt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCB
+vqCBu4aBuGxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJU
+SUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0
+YVJldm9jYXRpb25MaXN0P2Jhc2UwHwYDVR0RBBgwFoEUZWxhbGRlYW5Ab3V0bG9vay5jb20wggEG
+BgNVHSAEgf4wgfswWgYKKwYBBAGCpnICBzBMMEoGCCsGAQUFBwICMD4ePABDAGUAcgB0AGkAZgBp
+AGMAYQBkAG8AIABkAGUAIABQAGUAcgBzAG8AbgBhACAATgBhAHQAdQByAGEAbDCBnAYKKwYBBAGC
+pnICATCBjTCBigYIKwYBBQUHAgEWfmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3At
+Y29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMg
+ZGUgQ2VydGlmaWNhZG8gUGVyc29uYSBOYXR1cmFsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGg
+P4Y9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0
+dXMvb2NzcKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VC
+Q0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCB
+x6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9j
+ZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1v
+cGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0
+ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0y
+IFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9O
+LE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQU/BBdsMlLYok3cNR1GQLJ4A1n
+wfwwKwYDVR0QBCQwIoAPMjAyNDAzMTIxNjQ2MDRagQ8yMDI5MDMxMjE2NDYwNFowCwYDVR0PBAQD
+AgXgMBoGCisGAQQBgqZyAwEEDAwKMTEwMzA3Mzg5NDAuBgorBgEEAYKmcgMJBCAMHlNBTlRPIERP
+TUlOR08gREUgTE9TIENPTE9SQURPUzARBgorBgEEAYKmcgMiBAMMAS4wMwYKKwYBBAGCpnIDBwQl
+DCNBTlRJWkFOQSAxNDUgWSBFSkVSQ0lUTyBFQ1VBVE9SSUFOTzAhBgorBgEEAYKmcgMCBBMMEUNF
+TkVMSUEgREVMIENJU05FMB8GCisGAQQBgqZyAyAEEQwPMDAxMDAyMDAwNTUyNDY2MBEGCisGAQQB
+gqZyAyMEAwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1Iw
+GQYKKwYBBAGCpnIDAwQLDAlRVUlDSElNQk8wGwYKKwYBBAGCpnIDHgQNDAtDT01FUkNJQU5URTAd
+BgorBgEEAYKmcgMLBA8MDTExMDMwNzM4OTQwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBQGCisGAQQB
+gqZyAwQEBgwERElBWjAaBgorBgEEAYKmcgMIBAwMCjA5ODA3ODA3OTQwDQYJKoZIhvcNAQELBQAD
+ggIBAJ/PSVXIcIp76TTyE5TqRYzkNPb/pAwZBA+/3DS0c8toMH+y4rcwOKZeauF3OmdAknN7fnKF
+5SC/NEy8WKyoS6CjYIH4ME3iqUroAf22sCuWZvohgwQNwVg1mEjQwuXHUjv5PK4GSLrw4v9Pzr9Y
+9y4b2dCDQ1V+SEkTOoWHb/E2KxVjKr1mkS1F4Vq2iXwsNeGCojV8rbXW630CRcsbzN+yu/jduG+8
+okgT4BU6X2WeG8dSIGmR4s67EbDlRv9S+z1A8ZsbbQyOVEM+G1WvBzfu2eejJ8a+tUXax8cOmo3M
+evAhvRjrZrEsyyQt5bgDe5qDNCiToN0Vxl32vaKC1odC+EPP03r0qu1DsgtGW2wEDyiPTzNQuxzA
+Ta6GhHJZpgcwu2/Mtqs39fB9LPo7Kz2qPhPLGcuApyAaWDNdQ3YJzKdnzIVByBBh0j3VtMnLtQCl
+DFXoE9xQ86CtyNm+f8EYfWPWqCE9fZsD8j/r8VthR0Z3/tSPELNCvLmkn0qRD+FwQEy2CCKcT8ka
+C1PxfOfWHLkl/S6A9bMRXO1VMiTXxWYJ0t/dLFjSx7j8LUCmSBSWgnA9paYlWLZLef7i8kAzP/Re
+PVuGkf7HWabIlNBtLa/f+WcjLbvRfSqGTiogV0pI97aLnl81xbpbZC8Tz65hh35sLIIbXkYUwOVn
+Xtbq
+&lt;/ds:X509Certificate&gt;
+&lt;/ds:X509Data&gt;
+&lt;ds:KeyValue&gt;
+&lt;ds:RSAKeyValue&gt;
+&lt;ds:Modulus&gt;
+7WuK/uaMgeWjJVp1n+2fHEpgrqBVfexVPIsKbLkh5RhOHf+oftv6v5eW3HQx0Yt+C1pnusqoe/8r
+nqVcKndYKc66tV0ZIO4WRFuOVd8yiL80M7gij7x8nTwUjkkBp42hNBRzTDcQM0hgzFlNt5ccibq8
+GYc7TJTJdurHcBuxwPlrWTwN32MfddNKP9dcCcpAux7htxP/d3Km6tqG43YBGhhnqsYerCqk0SCe
+VGrMPwUGYU+8XqjGQQrB0OKeoE8tfhCk07HGNQykuqUhM+BVj8T1jb/9FD40CGgtHX1N6PB+85tU
++0K7BYU88R0SndCcGIB7qmNPU0nOJTLrFgnt6Q==
+&lt;/ds:Modulus&gt;
+&lt;ds:Exponent&gt;AQAB&lt;/ds:Exponent&gt;
+&lt;/ds:RSAKeyValue&gt;
+&lt;/ds:KeyValue&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object Id="Signature1009018-Object74471"&gt;&lt;etsi:QualifyingProperties Target="#Signature1009018"&gt;&lt;etsi:SignedProperties Id="Signature1009018-SignedProperties450954"&gt;&lt;etsi:SignedSignatureProperties&gt;&lt;etsi:SigningTime&gt;2025-09-04T18:11:05-04:00&lt;/etsi:SigningTime&gt;&lt;etsi:SigningCertificate&gt;&lt;etsi:Cert&gt;&lt;etsi:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;&lt;ds:DigestValue&gt;IdCMqNcAAPY9PXtrR32JFql6/UY=&lt;/ds:DigestValue&gt;&lt;/etsi:CertDigest&gt;&lt;etsi:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;1633810601&lt;/ds:X509SerialNumber&gt;&lt;/etsi:IssuerSerial&gt;&lt;/etsi:Cert&gt;&lt;/etsi:SigningCertificate&gt;&lt;/etsi:SignedSignatureProperties&gt;&lt;etsi:SignedDataObjectProperties&gt;&lt;etsi:DataObjectFormat ObjectReference="#Reference-ID-558589"&gt;&lt;etsi:Description&gt;Documento de ejemplo&lt;/etsi:Description&gt;&lt;etsi:MimeType&gt;text/xml&lt;/etsi:MimeType&gt;&lt;/etsi:DataObjectFormat&gt;&lt;/etsi:SignedDataObjectProperties&gt;&lt;/etsi:SignedProperties&gt;&lt;/etsi:QualifyingProperties&gt;&lt;/ds:Object&gt;&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse></soap:Body></soap:Envelope>

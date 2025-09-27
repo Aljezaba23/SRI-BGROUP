@@ -1,0 +1,563 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>2509202501110307389400120050060002574711234567815</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>2509202501110307389400120050060002574711234567815</numeroAutorizacion><fechaAutorizacion>2025-09-25T18:32:00-05:00</fechaAutorizacion><ambiente>PRODUCCIÓN</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;factura id="comprobante" version="1.1.0"&gt;
+    &lt;infoTributaria&gt;
+        &lt;ambiente&gt;2&lt;/ambiente&gt;
+        &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;
+        &lt;razonSocial&gt;QUICHIMBO DIAZ CENELIA DEL CISNE&lt;/razonSocial&gt;
+        &lt;nombreComercial&gt;ALDEAN SUPERMERCADOS&lt;/nombreComercial&gt;
+        &lt;ruc&gt;1103073894001&lt;/ruc&gt;
+        &lt;claveAcceso&gt;2509202501110307389400120050060002574711234567815&lt;/claveAcceso&gt;
+        &lt;codDoc&gt;01&lt;/codDoc&gt;
+        &lt;estab&gt;005&lt;/estab&gt;
+        &lt;ptoEmi&gt;006&lt;/ptoEmi&gt;
+        &lt;secuencial&gt;000257471&lt;/secuencial&gt;
+        &lt;dirMatriz&gt;ANTIZANA 145 Y EJERCITO ECUATORIANO&lt;/dirMatriz&gt;
+    &lt;/infoTributaria&gt;
+    &lt;infoFactura&gt;
+        &lt;fechaEmision&gt;25/09/2025&lt;/fechaEmision&gt;
+        &lt;dirEstablecimiento&gt;AV. LA LORENA S/N Y BAHIA DE CARAQUEZ&lt;/dirEstablecimiento&gt;
+        &lt;contribuyenteEspecial&gt;745&lt;/contribuyenteEspecial&gt;
+        &lt;obligadoContabilidad&gt;SI&lt;/obligadoContabilidad&gt;
+        &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;
+        &lt;razonSocialComprador&gt;BECERRA AUZ ADRIAN FERNANDO&lt;/razonSocialComprador&gt;
+        &lt;identificacionComprador&gt;2300295892&lt;/identificacionComprador&gt;
+        &lt;direccionComprador&gt;COOP 9 DE DICIEMBRE&lt;/direccionComprador&gt;
+        &lt;totalSinImpuestos&gt;26.25&lt;/totalSinImpuestos&gt;
+        &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;
+        &lt;totalConImpuestos&gt;
+            &lt;totalImpuesto&gt;
+                &lt;codigo&gt;2&lt;/codigo&gt;
+                &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                &lt;baseImponible&gt;5.87&lt;/baseImponible&gt;
+                &lt;valor&gt;0.88&lt;/valor&gt;
+            &lt;/totalImpuesto&gt;
+            &lt;totalImpuesto&gt;
+                &lt;codigo&gt;2&lt;/codigo&gt;
+                &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                &lt;baseImponible&gt;20.38&lt;/baseImponible&gt;
+                &lt;valor&gt;0.00&lt;/valor&gt;
+            &lt;/totalImpuesto&gt;
+        &lt;/totalConImpuestos&gt;
+        &lt;propina&gt;0.00&lt;/propina&gt;
+        &lt;importeTotal&gt;27.13&lt;/importeTotal&gt;
+        &lt;moneda&gt;DOLAR&lt;/moneda&gt;
+        &lt;pagos&gt;
+            &lt;pago&gt;
+                &lt;formaPago&gt;01&lt;/formaPago&gt;
+                &lt;total&gt;27.13&lt;/total&gt;
+                &lt;plazo&gt;0&lt;/plazo&gt;
+                &lt;unidadTiempo&gt;Dias&lt;/unidadTiempo&gt;
+            &lt;/pago&gt;
+        &lt;/pagos&gt;
+    &lt;/infoFactura&gt;
+    &lt;detalles&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861138608611&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;LECHE REYLECHE 900ML ENTERA FD&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.0005&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;2.00&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;2.00&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;090388001416&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;ATUN REAL 80G X3 ACE GIRASOL&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;2.1777&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;2.18&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|20"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;2.18&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861018517538&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* PAPA RUFFLES 68G NATURAL(35)&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.8270&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.83&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.83&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.12&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861026004211&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;FIDEO TOSCANA 100G NIDO CABELL&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.2451&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.50&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="BT|50"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.50&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7750243016117&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;TALL DON VITTORIO 200G #5 SPAG&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.7296&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.46&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="BT|30"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.46&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7862100603221&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;ATUN REAL 160G A/F ACE GIRASOL&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.2141&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;2.42&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|48"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;2.42&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861057500027&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;SAL CRIS-SAL 2KG&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.7750&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.78&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="QQ|25"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.78&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861026001555&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;FIDEO TOSCANA 100G BROCA&lt;/descripcion&gt;
+            &lt;cantidad&gt;3.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.2451&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.75&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|3.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="BT|50"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.75&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7868001054124&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* PAPA GUANLLITA FRITA 110G OREG&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.8778&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.88&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|45"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.88&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.13&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7862100720249&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* AGUA SPLENDOR S/GAS 250ML(20)&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.2375&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.48&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|20"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.48&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.08&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861024608947&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* COLA COCA S/AZ 250ML(12)&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.2294&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.23&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.23&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.03&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861002513102&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;ACEITE PALMA ORO 1L FDA&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.8430&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;3.68&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|12"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;3.68&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;1702151&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* MATAMOSCA PLAST FLOR SURT BIG2&lt;/descripcion&gt;
+            &lt;cantidad&gt;3.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.2837&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.84&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|3.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.84&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.12&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7868000588323&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;DISCO EMPANADA 300G X24 LA PAY&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.6840&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.36&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.36&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7868000588309&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;DISCO EMPANADA 400G X12 PAYITA&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.0200&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.02&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.02&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7862100391074&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;PINZA PLAST HOGAREÑITA FX24&lt;/descripcion&gt;
+            &lt;cantidad&gt;2.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.1543&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;2.30&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|2.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="UD|0"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;2.30&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7862100721277&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* AGUA SPLENDOR S/GAS 750ML BOT(&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;0.4875&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;0.49&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="PC|12"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;0.49&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.07&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861005205677&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;* CAFE MINERVA 180G CLASICO FDA &lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;2.1168&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;2.12&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|40"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;4&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;15.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;2.12&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.32&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+        &lt;detalle&gt;
+            &lt;codigoPrincipal&gt;7861002513126&lt;/codigoPrincipal&gt;
+            &lt;descripcion&gt;ACEITE PALMA ORO 900ML BOT&lt;/descripcion&gt;
+            &lt;cantidad&gt;1.0000&lt;/cantidad&gt;
+            &lt;precioUnitario&gt;1.9305&lt;/precioUnitario&gt;
+            &lt;descuento&gt;0.00&lt;/descuento&gt;
+            &lt;precioTotalSinImpuesto&gt;1.93&lt;/precioTotalSinImpuesto&gt;
+            &lt;detallesAdicionales&gt;
+                &lt;detAdicional nombre="C" valor="0|1.00"&gt;&lt;/detAdicional&gt;
+                &lt;detAdicional nombre="U" valor="CJ|15"&gt;&lt;/detAdicional&gt;
+            &lt;/detallesAdicionales&gt;
+            &lt;impuestos&gt;
+                &lt;impuesto&gt;
+                    &lt;codigo&gt;2&lt;/codigo&gt;
+                    &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+                    &lt;tarifa&gt;0.00&lt;/tarifa&gt;
+                    &lt;baseImponible&gt;1.93&lt;/baseImponible&gt;
+                    &lt;valor&gt;0.00&lt;/valor&gt;
+                &lt;/impuesto&gt;
+            &lt;/impuestos&gt;
+        &lt;/detalle&gt;
+    &lt;/detalles&gt;
+    &lt;infoAdicional&gt;
+        &lt;campoAdicional nombre="Direccion"&gt;SANTO DOMINGO DE LOS COLORADOS - COOP. 9 DE DICIEMBRE&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Telefono"&gt;0963109445&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Plazo"&gt;CONTADO&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Email"&gt;.-,&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Email"&gt;}&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="Vendedor"&gt;KERLY 25-SEP-2025 18:31:29&lt;/campoAdicional&gt;
+        &lt;campoAdicional nombre="ICE FUNDA EXCENTO"&gt;Resolucion Nro. MPCEIP-SCIT-2020-0139-R&lt;/campoAdicional&gt;
+    &lt;/infoAdicional&gt;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature459061"&gt;
+&lt;ds:SignedInfo Id="Signature-SignedInfo289719"&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"&gt;&lt;/ds:CanonicalizationMethod&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"&gt;&lt;/ds:SignatureMethod&gt;
+&lt;ds:Reference Id="SignedPropertiesID722300" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature459061-SignedProperties535359"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;2HpFYxNUKt4Hsq+wey8QtYFruB0=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference URI="#Certificate1464555"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;gYGj8f2MJ7H74+XRJQw2si8RWSQ=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Id="Reference-ID-774058" URI="#comprobante"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"&gt;&lt;/ds:Transform&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;
+&lt;ds:DigestValue&gt;eQtnIXrrm1bbFRYw2WfsDNi5b+Y=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="SignatureValue1041306"&gt;
+icCogmkdFm0rT8K7e/hipk9A7dD+oYWJKddINBmQfaTY3dOBa6SazmosoU57DLD9a8Gwave6JY0Q
+fDKIFtmwTSw577iDPsv035O7jmjc/wfJ0WbBis1go89+5Hm2SrapSFGaafk1g/c8xjyReHfzVALt
+3Od2ZOR7Qgqlqyr5kjgtE7sK/ZWoIi8sgFDXqEQ83ugEyoZ8hNn9KJpr6P7GIkz6+LGEWYkasejk
+DMeoutY86YhBEsKPVCmSEnG7zFUEOT60kVINpFgw1ff7LO3uhTo2UFT7VrvM2TbAIiyI12YiHnID
+TL/kwwRAINAAyjDPaSRryFpm+22PPzZSoSPGnw==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo Id="Certificate1464555"&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIIMBTCCCe2gAwIBAgIEYWH4qTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNDAzMTIxNjQ2MDRaFw0yOTAzMTIxNjQ2MDRaMIGrMSkw
+JwYDVQQDDCBDRU5FTElBIERFTCBDSVNORSBRVUlDSElNQk8gRElBWjEgMB4GA1UEBRMXMTEwMzA3
+Mzg5NC0xMjAzMjQxMTU2MTkxMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJ
+TkZPUk1BQ0lPTjEdMBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7WuK/uaMgeWjJVp1n+2fHEpgrqBVfexVPIsK
+bLkh5RhOHf+oftv6v5eW3HQx0Yt+C1pnusqoe/8rnqVcKndYKc66tV0ZIO4WRFuOVd8yiL80M7gi
+j7x8nTwUjkkBp42hNBRzTDcQM0hgzFlNt5ccibq8GYc7TJTJdurHcBuxwPlrWTwN32MfddNKP9dc
+CcpAux7htxP/d3Km6tqG43YBGhhnqsYerCqk0SCeVGrMPwUGYU+8XqjGQQrB0OKeoE8tfhCk07HG
+NQykuqUhM+BVj8T1jb/9FD40CGgtHX1N6PB+85tU+0K7BYU88R0SndCcGIB7qmNPU0nOJTLrFgnt
+6QIDAQABo4IHPzCCBzswDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSMusoRV3glgB1rCktVv42u
+Yt29jzBZBggrBgEFBQcBAQRNMEswSQYIKwYBBQUHMAGGPWh0dHA6Ly9vY3NwZ3cuc2VjdXJpdHlk
+YXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVzL29jc3Awgc8GA1UdLgSBxzCBxDCBwaCB
+vqCBu4aBuGxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklEQUQg
+REUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJU
+SUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9kZWx0
+YVJldm9jYXRpb25MaXN0P2Jhc2UwHwYDVR0RBBgwFoEUZWxhbGRlYW5Ab3V0bG9vay5jb20wggEG
+BgNVHSAEgf4wgfswWgYKKwYBBAGCpnICBzBMMEoGCCsGAQUFBwICMD4ePABDAGUAcgB0AGkAZgBp
+AGMAYQBkAG8AIABkAGUAIABQAGUAcgBzAG8AbgBhACAATgBhAHQAdQByAGEAbDCBnAYKKwYBBAGC
+pnICATCBjTCBigYIKwYBBQUHAgEWfmh0dHBzOi8vd3d3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvd3At
+Y29udGVudC9kb3dubG9hZHMvTm9ybWF0aXZhcy9QX2RlX0NlcnRpZmljYWRvcy9Qb2xpdGljYXMg
+ZGUgQ2VydGlmaWNhZG8gUGVyc29uYSBOYXR1cmFsLnBkZjCCAqIGA1UdHwSCApkwggKVMIHloEGg
+P4Y9aHR0cDovL29jc3Bndy5zZWN1cml0eWRhdGEubmV0LmVjL2VqYmNhL3B1YmxpY3dlYi9zdGF0
+dXMvb2NzcKKBn6SBnDCBmTE5MDcGA1UEAwwwQVVUT1JJREFEIERFIENFUlRJRklDQUNJT04gU1VC
+Q0EtMiBTRUNVUklUWSBEQVRBMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUg
+SU5GT1JNQUNJT04xHTAbBgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCB
+x6CBxKCBwYaBvmxkYXA6Ly9sZGFwc2RjYTIuc2VjdXJpdHlkYXRhLm5ldC5lYy9DTj1BVVRPUklE
+QUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBD
+RVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQz9j
+ZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0P2Jhc2UwgeCggd2ggdqGgddodHRwczovL3BvcnRhbC1v
+cGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJsaWN3ZWIvd2ViZGlzdC9jZXJ0
+ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0y
+IFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERFIElORk9STUFDSU9O
+LE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQU/BBdsMlLYok3cNR1GQLJ4A1n
+wfwwKwYDVR0QBCQwIoAPMjAyNDAzMTIxNjQ2MDRagQ8yMDI5MDMxMjE2NDYwNFowCwYDVR0PBAQD
+AgXgMBoGCisGAQQBgqZyAwEEDAwKMTEwMzA3Mzg5NDAuBgorBgEEAYKmcgMJBCAMHlNBTlRPIERP
+TUlOR08gREUgTE9TIENPTE9SQURPUzARBgorBgEEAYKmcgMiBAMMAS4wMwYKKwYBBAGCpnIDBwQl
+DCNBTlRJWkFOQSAxNDUgWSBFSkVSQ0lUTyBFQ1VBVE9SSUFOTzAhBgorBgEEAYKmcgMCBBMMEUNF
+TkVMSUEgREVMIENJU05FMB8GCisGAQQBgqZyAyAEEQwPMDAxMDAyMDAwNTUyNDY2MBEGCisGAQQB
+gqZyAyMEAwwBLjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFET1Iw
+GQYKKwYBBAGCpnIDAwQLDAlRVUlDSElNQk8wGwYKKwYBBAGCpnIDHgQNDAtDT01FUkNJQU5URTAd
+BgorBgEEAYKmcgMLBA8MDTExMDMwNzM4OTQwMDEwEQYKKwYBBAGCpnIDHQQDDAEuMBQGCisGAQQB
+gqZyAwQEBgwERElBWjAaBgorBgEEAYKmcgMIBAwMCjA5ODA3ODA3OTQwDQYJKoZIhvcNAQELBQAD
+ggIBAJ/PSVXIcIp76TTyE5TqRYzkNPb/pAwZBA+/3DS0c8toMH+y4rcwOKZeauF3OmdAknN7fnKF
+5SC/NEy8WKyoS6CjYIH4ME3iqUroAf22sCuWZvohgwQNwVg1mEjQwuXHUjv5PK4GSLrw4v9Pzr9Y
+9y4b2dCDQ1V+SEkTOoWHb/E2KxVjKr1mkS1F4Vq2iXwsNeGCojV8rbXW630CRcsbzN+yu/jduG+8
+okgT4BU6X2WeG8dSIGmR4s67EbDlRv9S+z1A8ZsbbQyOVEM+G1WvBzfu2eejJ8a+tUXax8cOmo3M
+evAhvRjrZrEsyyQt5bgDe5qDNCiToN0Vxl32vaKC1odC+EPP03r0qu1DsgtGW2wEDyiPTzNQuxzA
+Ta6GhHJZpgcwu2/Mtqs39fB9LPo7Kz2qPhPLGcuApyAaWDNdQ3YJzKdnzIVByBBh0j3VtMnLtQCl
+DFXoE9xQ86CtyNm+f8EYfWPWqCE9fZsD8j/r8VthR0Z3/tSPELNCvLmkn0qRD+FwQEy2CCKcT8ka
+C1PxfOfWHLkl/S6A9bMRXO1VMiTXxWYJ0t/dLFjSx7j8LUCmSBSWgnA9paYlWLZLef7i8kAzP/Re
+PVuGkf7HWabIlNBtLa/f+WcjLbvRfSqGTiogV0pI97aLnl81xbpbZC8Tz65hh35sLIIbXkYUwOVn
+Xtbq
+&lt;/ds:X509Certificate&gt;
+&lt;/ds:X509Data&gt;
+&lt;ds:KeyValue&gt;
+&lt;ds:RSAKeyValue&gt;
+&lt;ds:Modulus&gt;
+7WuK/uaMgeWjJVp1n+2fHEpgrqBVfexVPIsKbLkh5RhOHf+oftv6v5eW3HQx0Yt+C1pnusqoe/8r
+nqVcKndYKc66tV0ZIO4WRFuOVd8yiL80M7gij7x8nTwUjkkBp42hNBRzTDcQM0hgzFlNt5ccibq8
+GYc7TJTJdurHcBuxwPlrWTwN32MfddNKP9dcCcpAux7htxP/d3Km6tqG43YBGhhnqsYerCqk0SCe
+VGrMPwUGYU+8XqjGQQrB0OKeoE8tfhCk07HGNQykuqUhM+BVj8T1jb/9FD40CGgtHX1N6PB+85tU
++0K7BYU88R0SndCcGIB7qmNPU0nOJTLrFgnt6Q==
+&lt;/ds:Modulus&gt;
+&lt;ds:Exponent&gt;AQAB&lt;/ds:Exponent&gt;
+&lt;/ds:RSAKeyValue&gt;
+&lt;/ds:KeyValue&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object Id="Signature459061-Object44497"&gt;&lt;etsi:QualifyingProperties Target="#Signature459061"&gt;&lt;etsi:SignedProperties Id="Signature459061-SignedProperties535359"&gt;&lt;etsi:SignedSignatureProperties&gt;&lt;etsi:SigningTime&gt;2025-09-25T19:31:59-04:00&lt;/etsi:SigningTime&gt;&lt;etsi:SigningCertificate&gt;&lt;etsi:Cert&gt;&lt;etsi:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"&gt;&lt;/ds:DigestMethod&gt;&lt;ds:DigestValue&gt;IdCMqNcAAPY9PXtrR32JFql6/UY=&lt;/ds:DigestValue&gt;&lt;/etsi:CertDigest&gt;&lt;etsi:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;1633810601&lt;/ds:X509SerialNumber&gt;&lt;/etsi:IssuerSerial&gt;&lt;/etsi:Cert&gt;&lt;/etsi:SigningCertificate&gt;&lt;/etsi:SignedSignatureProperties&gt;&lt;etsi:SignedDataObjectProperties&gt;&lt;etsi:DataObjectFormat ObjectReference="#Reference-ID-774058"&gt;&lt;etsi:Description&gt;Documento de ejemplo&lt;/etsi:Description&gt;&lt;etsi:MimeType&gt;text/xml&lt;/etsi:MimeType&gt;&lt;/etsi:DataObjectFormat&gt;&lt;/etsi:SignedDataObjectProperties&gt;&lt;/etsi:SignedProperties&gt;&lt;/etsi:QualifyingProperties&gt;&lt;/ds:Object&gt;&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse></soap:Body></soap:Envelope>

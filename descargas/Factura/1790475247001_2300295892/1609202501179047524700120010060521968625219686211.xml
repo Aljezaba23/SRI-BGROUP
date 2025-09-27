@@ -1,0 +1,211 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion"><RespuestaAutorizacionComprobante><claveAccesoConsultada>1609202501179047524700120010060521968625219686211</claveAccesoConsultada><numeroComprobantes>1</numeroComprobantes><autorizaciones><autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>1609202501179047524700120010060521968625219686211</numeroAutorizacion><fechaAutorizacion>2025-09-16T20:35:59-05:00</fechaAutorizacion><ambiente>PRODUCCIÓN</ambiente><comprobante>&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;&lt;factura id="comprobante" version="1.1.0"&gt;
+  &lt;infoTributaria&gt;
+    &lt;ambiente&gt;2&lt;/ambiente&gt;
+    &lt;tipoEmision&gt;1&lt;/tipoEmision&gt;
+    &lt;razonSocial&gt;AIG METROPOLITANA CIA. DE SEGUROS Y REASEGUROS S.A.&lt;/razonSocial&gt;
+    &lt;nombreComercial&gt;AIG Metropolitana&lt;/nombreComercial&gt;
+    &lt;ruc&gt;1790475247001&lt;/ruc&gt;
+    &lt;claveAcceso&gt;1609202501179047524700120010060521968625219686211&lt;/claveAcceso&gt;
+    &lt;codDoc&gt;01&lt;/codDoc&gt;
+    &lt;estab&gt;001&lt;/estab&gt;
+    &lt;ptoEmi&gt;006&lt;/ptoEmi&gt;
+    &lt;secuencial&gt;052196862&lt;/secuencial&gt;
+    &lt;dirMatriz&gt;QUITO BRASIL 293 Y ANTONIO GRANDA CENTENO&lt;/dirMatriz&gt;
+  &lt;/infoTributaria&gt;
+  &lt;infoFactura&gt;
+    &lt;fechaEmision&gt;16/09/2025&lt;/fechaEmision&gt;
+    &lt;dirEstablecimiento&gt;GUAYAQUIL:Parque Empresarial Colon Edif. Corp II 2piso Of.203 CUENCA:ROBERTO CRESPO TORAL 2-46 Y MIGUEL CORDERO ESQUINA EDIFICIO LAS ACACIAS&lt;/dirEstablecimiento&gt;
+    &lt;contribuyenteEspecial&gt;5368&lt;/contribuyenteEspecial&gt;
+    &lt;obligadoContabilidad&gt;SI&lt;/obligadoContabilidad&gt;
+    &lt;tipoIdentificacionComprador&gt;05&lt;/tipoIdentificacionComprador&gt;
+    &lt;razonSocialComprador&gt;BECERRA AUZ ADRIAN FERNANDO&lt;/razonSocialComprador&gt;
+    &lt;identificacionComprador&gt;2300295892&lt;/identificacionComprador&gt;
+    &lt;totalSinImpuestos&gt;1.66&lt;/totalSinImpuestos&gt;
+    &lt;totalDescuento&gt;0.00&lt;/totalDescuento&gt;
+    &lt;totalConImpuestos&gt;
+      &lt;totalImpuesto&gt;
+        &lt;codigo&gt;2&lt;/codigo&gt;
+        &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+        &lt;baseImponible&gt;1.66&lt;/baseImponible&gt;
+        &lt;tarifa&gt;0&lt;/tarifa&gt;
+        &lt;valor&gt;0.00&lt;/valor&gt;
+      &lt;/totalImpuesto&gt;
+    &lt;/totalConImpuestos&gt;
+    &lt;propina&gt;0.00&lt;/propina&gt;
+    &lt;importeTotal&gt;1.66&lt;/importeTotal&gt;
+    &lt;moneda&gt;DOLAR&lt;/moneda&gt;
+    &lt;pagos&gt;
+      &lt;pago&gt;
+        &lt;formaPago&gt;20&lt;/formaPago&gt;
+        &lt;total&gt;1.66&lt;/total&gt;
+        &lt;plazo&gt;15&lt;/plazo&gt;
+        &lt;unidadTiempo&gt;DIAS&lt;/unidadTiempo&gt;
+      &lt;/pago&gt;
+    &lt;/pagos&gt;
+  &lt;/infoFactura&gt;
+  &lt;detalles&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;1479336&lt;/codigoPrincipal&gt;
+      &lt;codigoAuxiliar&gt;136785&lt;/codigoAuxiliar&gt;
+      &lt;descripcion&gt;50346_DESGRAVAMEN A TU MEDIDA&lt;/descripcion&gt;
+      &lt;cantidad&gt;1.00&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;1.59&lt;/precioUnitario&gt;
+      &lt;descuento&gt;0.00&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;1.59&lt;/precioTotalSinImpuesto&gt;
+      &lt;detallesAdicionales&gt;
+        &lt;detAdicional nombre="Sucursal" valor="QUITO"/&gt;
+        &lt;detAdicional nombre="Ramo" valor="VIDA COLECTIVO"/&gt;
+        &lt;detAdicional nombre="NroPoliza" valor="50346"/&gt;
+      &lt;/detallesAdicionales&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;0&lt;/tarifa&gt;
+          &lt;baseImponible&gt;1.59&lt;/baseImponible&gt;
+          &lt;valor&gt;0.00&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;0&lt;/codigoPrincipal&gt;
+      &lt;codigoAuxiliar&gt;0&lt;/codigoAuxiliar&gt;
+      &lt;descripcion&gt;SUPER DE BANCOS&lt;/descripcion&gt;
+      &lt;cantidad&gt;1.00&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;0.06&lt;/precioUnitario&gt;
+      &lt;descuento&gt;0.00&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;0.06&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;0&lt;/tarifa&gt;
+          &lt;baseImponible&gt;0.06&lt;/baseImponible&gt;
+          &lt;valor&gt;0.00&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+    &lt;detalle&gt;
+      &lt;codigoPrincipal&gt;1&lt;/codigoPrincipal&gt;
+      &lt;codigoAuxiliar&gt;0&lt;/codigoAuxiliar&gt;
+      &lt;descripcion&gt;SEGURO CAMPESINO&lt;/descripcion&gt;
+      &lt;cantidad&gt;1.00&lt;/cantidad&gt;
+      &lt;precioUnitario&gt;0.01&lt;/precioUnitario&gt;
+      &lt;descuento&gt;0.00&lt;/descuento&gt;
+      &lt;precioTotalSinImpuesto&gt;0.01&lt;/precioTotalSinImpuesto&gt;
+      &lt;impuestos&gt;
+        &lt;impuesto&gt;
+          &lt;codigo&gt;2&lt;/codigo&gt;
+          &lt;codigoPorcentaje&gt;0&lt;/codigoPorcentaje&gt;
+          &lt;tarifa&gt;0&lt;/tarifa&gt;
+          &lt;baseImponible&gt;0.01&lt;/baseImponible&gt;
+          &lt;valor&gt;0.00&lt;/valor&gt;
+        &lt;/impuesto&gt;
+      &lt;/impuestos&gt;
+    &lt;/detalle&gt;
+  &lt;/detalles&gt;
+  &lt;infoAdicional&gt;
+    &lt;campoAdicional nombre="CodInternoSAP"&gt;56485332&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="CodSociedad"&gt;1078&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="DetInfoAdic"&gt;VIDA COLECTIVO&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="DetInfoAdic1"&gt;Suma Asegurada: 1678.22&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="DetInfoAdic2"&gt;Vigencia: 2025.09.01 AL 2025.09.30&lt;/campoAdicional&gt;
+    &lt;campoAdicional nombre="Gran Contribuyente"&gt;NAC-GCFOIOC21-00001097-E&lt;/campoAdicional&gt;
+  &lt;/infoAdicional&gt;
+&lt;ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature402388"&gt;
+&lt;ds:SignedInfo Id="Signature-SignedInfo140981"&gt;
+&lt;ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/&gt;
+&lt;ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/&gt;
+&lt;ds:Reference Id="SignedPropertiesID615482" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature402388-SignedProperties413341"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;eGITlMTwFvC19gLWMG2Gcpkhz2g=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference URI="#Certificate1167848"&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;tKxm956Wc1il+7UOgbT5sHfEnhE=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;ds:Reference Id="Reference-ID-743587" URI="#comprobante"&gt;
+&lt;ds:Transforms&gt;
+&lt;ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/&gt;
+&lt;/ds:Transforms&gt;
+&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;
+&lt;ds:DigestValue&gt;eTeJhoMJCym02OJXKWOTXOtIk7I=&lt;/ds:DigestValue&gt;
+&lt;/ds:Reference&gt;
+&lt;/ds:SignedInfo&gt;
+&lt;ds:SignatureValue Id="SignatureValue99337"&gt;
+PO49PkeIKOIzo8JF4NhAtPrZdkHWu1WBxRrtBcGsVQUpOetEfxYl9dTaxNqrt02EztEHC2SbFSoV
+baQ8AZsoY9yKwY5rswYl7N96Iea98PeNDjRtXGZUlL8ZbjJUtd32ipebRLvHtF6GzpTuAZWPv1S3
+UV5MtYQvwt1KqQ7zs5wbbYuJYokzE87gtnMELYrIuxII5zV6G+lAcEP+ZYUJQ0bPrhklOsoGt7eR
+jcJUH46fW+1cBdpYeCR+t6kGbo45LJ/yA3p69b7FEgqCjtQA1rYmqM1Qxi3KjrNGyNcZdOresdV4
+zriTEykHNpJtAXYEQYU0v05jzw7FgInVNeTj+A==
+&lt;/ds:SignatureValue&gt;
+&lt;ds:KeyInfo Id="Certificate1167848"&gt;
+&lt;ds:X509Data&gt;
+&lt;ds:X509Certificate&gt;
+MIILQzCCCSugAwIBAgIEEOJ/cTANBgkqhkiG9w0BAQsFADCBmTELMAkGA1UEBhMCRUMxHTAbBgNV
+BAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJ
+T04gREUgSU5GT1JNQUNJT04xOTA3BgNVBAMMMEFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIFNV
+QkNBLTIgU0VDVVJJVFkgREFUQTAeFw0yNTA0MjUxOTUwMzhaFw0yNzA0MjUxOTUwMzhaMIGdMRww
+GgYDVQQDDBNSSUNBUkRPIFBBQkxPIExFTkdBMR8wHQYDVQQFExZBQUk4Mjg0MzEtMjUwNDI1MTUw
+MDMzMTAwLgYDVQQLDCdFTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04xHTAb
+BgNVBAoMFFNFQ1VSSVRZIERBVEEgUy5BLiAyMQswCQYDVQQGEwJFQzCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAMQpBWxhOrm+66BFBqerHoozkL2I1jFT7ALY+F0sJI+NaNqXw0jAGCoe
+eiKpm12ZE1cum44XSDgVz13POJJswNuNmKIvqgayChuxkeEEnhE4U0YWDMEjdewPGcZCdDL9Mx9x
+crsZMdeOXOGloK4BHWQzuoADZAY3FDHtBcv6kRK0/Tk019uQcPQjBlFRgdf1AY5oLTJXRY63CFDB
+WOCE4wRBnxZLCpdku9LXn2RnIf5MzKMg4MuvyvnUbR143PdufZkmVemD+kB9ciirFb7B6DcRSEDL
+E9/gb7Ux67vRs9r4ttKPp2albjWSr1hfo2ahe9WbNVvj3etUu9jgLiQ3ujkCAwEAAaOCBoswggaH
+MAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUjLrKEVd4JYAdawpLVb+NrmLdvY8wWQYIKwYBBQUH
+AQEETTBLMEkGCCsGAQUFBzABhj1odHRwOi8vb2NzcGd3LnNlY3VyaXR5ZGF0YS5uZXQuZWMvZWpi
+Y2EvcHVibGljd2ViL3N0YXR1cy9vY3NwMCAGA1UdEQQZMBeBFXJpY2FyZG8ubGVuZ2FAYWlnLmNv
+bTCCARUGA1UdIASCAQwwggEIMGIGCisGAQQBgqZyAgkwVDBSBggrBgEFBQcCAjBGHkQAQwBlAHIA
+dABpAGYAaQBjAGEAZABvACAAZABlACAAUgBlAHAAcgBlAHMAZQBuAHQAYQBuAHQAZQAgAEwAZQBn
+AGEAbDCBoQYKKwYBBAGCpnICAzCBkjCBjwYIKwYBBQUHAgEWgYJodHRwczovL3d3dy5zZWN1cml0
+eWRhdGEubmV0LmVjL3dwLWNvbnRlbnQvZG93bmxvYWRzL05vcm1hdGl2YXMvUF9kZV9DZXJ0aWZp
+Y2Fkb3MvUG9saXRpY2FzIGRlIENlcnRpZmljYWRvIFJlcHJlc2VudGFudGUgTGVnYWwucGRmMB0G
+A1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCCAg8GA1UdHwSCAgYwggICMIHeoDqgOIY2aHR0
+cDovL2NybDEuc2VjdXJpdHlkYXRhLm5ldC5lYy9zdWJjYTJjcmwxL2NybGZpbGUuY3JsooGfpIGc
+MIGZMTkwNwYDVQQDDDBBVVRPUklEQUQgREUgQ0VSVElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZ
+IERBVEExMDAuBgNVBAsMJ0VOVElEQUQgREUgQ0VSVElGSUNBQ0lPTiBERSBJTkZPUk1BQ0lPTjEd
+MBsGA1UECgwUU0VDVVJJVFkgREFUQSBTLkEuIDIxCzAJBgNVBAYTAkVDMDygOqA4hjZodHRwOi8v
+Y3JsMi5zZWN1cml0eWRhdGEubmV0LmVjL3N1YmNhMmNybDIvY3JsZmlsZS5jcmwwgeCggd2ggdqG
+gddodHRwczovL3BvcnRhbC1vcGVyYWRvcjIuc2VjdXJpdHlkYXRhLm5ldC5lYy9lamJjYS9wdWJs
+aWN3ZWIvd2ViZGlzdC9jZXJ0ZGlzdD9jbWQ9Y3JsJmlzc3Vlcj1DTj1BVVRPUklEQUQgREUgQ0VS
+VElGSUNBQ0lPTiBTVUJDQS0yIFNFQ1VSSVRZIERBVEEsT1U9RU5USURBRCBERSBDRVJUSUZJQ0FD
+SU9OIERFIElORk9STUFDSU9OLE89U0VDVVJJVFkgREFUQSBTLkEuIDIsQz1FQzAdBgNVHQ4EFgQU
+gww54o8/GFJ3Je5eTaj7dIqnWGQwKwYDVR0QBCQwIoAPMjAyNTA0MjUxOTUwMzhagQ8yMDI3MDQy
+NTE5NTAzOFowCwYDVR0PBAQDAgXgMDMGCisGAQQBgqZyAwUEJQwjR0VSRU5URSBERSBPUEVSQUNJ
+T05FUyBZIFNJTklFU1RST1MwGQYKKwYBBAGCpnIDAQQLDAlBQUk4Mjg0MzEwbwYKKwYBBAGCpnID
+CQRhDF9RVUlUTyBESVNUUklUTyBNRVRST1BPTElUQU5PIENBQkVDRVJBIENBTlRPTkFMIENBUElU
+QUwgUFJPVklOQ0lBTCBZIERFIExBIFJFUFVCTElDQSBERUwgRUNVQURPUjARBgorBgEEAYKmcgMi
+BAMMAS4wOAYKKwYBBAGCpnIDBwQqDChBViBCUkFTSUwgMzkgOTEgWSBBTlRPTklPIEdSQU5EQSBD
+RU5URU5PMB0GCisGAQQBgqZyAwIEDwwNUklDQVJETyBQQUJMTzAfBgorBgEEAYKmcgMgBBEMDzY2
+NjY2NjY2NjY2NjY2NjATBgorBgEEAYKmcgMhBAUMA1BGWDAXBgorBgEEAYKmcgMMBAkMB0VDVUFE
+T1IwFQYKKwYBBAGCpnIDAwQHDAVMRU5HQTBBBgorBgEEAYKmcgMKBDMMMUFJRyBNRVRST1BPTElU
+QU5BIENJQSBERSBTRUdVUk9TIFkgUkVBU0VHVVJPUyBTIEEwHQYKKwYBBAGCpnIDCwQPDA0xNzkw
+NDc1MjQ3MDAxMBEGCisGAQQBgqZyAx0EAwwBLjARBgorBgEEAYKmcgMEBAMMAS4wGgYKKwYBBAGC
+pnIDCAQMDAowOTk5OTk5OTk5MA0GCSqGSIb3DQEBCwUAA4ICAQCK6fnVM2ALwN6ab1lGy4CuIOBs
+MW6hdY2cTLyx5Vzg7w+6bPoMD1JcVgLgVtD+26NrABFHYupuoVxrMO26vRzlP+iBZ98JWgLEDf/H
+3ch9/9RPCOJxYgv+FWonBRi59p/5LJLrsq8LQx2S2JCyw3R5mQ0bIrftz2xNTqX6oMksYB3X5m48
+MgIkSDPP87dOffVCSrdaLczWOaUgzM/b12Uq3po8M/yF88ceOJ35yhsK5gCzeUSJ/mMq2Qi7T47e
+SINKJXKCQjbyr5yXLnZZ0zxFbUUq90Tbhm+uaUDMwVICKqB/3W0zqwqavcAW8r8i1yfNyuw8HMUf
+FU5JMGww9AZQNbFpcpftZ4iszrzlYYXB2zIp9yn5HKx+HGYRhpVeEbf592ghiBx6SwZ8TjjNedKX
+hHhp03hzcvCKXdnNx8BaEQQxVQPYUgCQKHb397XE7do19/GyXpzsG6JTBm8iAhGXHZHc/wgQDq7u
+t0WvwEXTJ+aCPwfPEUIm/Jm+2cKXp+18s6Z5ZH1FkKFOfj6S4cFtwEEerrMDXicxVhpUcleEiwQE
+X8jgHAVk89AFsJ2k1Pb/dEPnulBeo3fGutFmoylBjKMy5X0JalToF0TkMr2x4n639wzms527pDJF
+BfzGZ1w3eJmAO4VY1s4JdiJsZYjEimIY5Emw51wFqNR30VqIiA==
+&lt;/ds:X509Certificate&gt;
+&lt;/ds:X509Data&gt;
+&lt;ds:KeyValue&gt;
+&lt;ds:RSAKeyValue&gt;
+&lt;ds:Modulus&gt;
+xCkFbGE6ub7roEUGp6seijOQvYjWMVPsAtj4XSwkj41o2pfDSMAYKh56IqmbXZkTVy6bjhdIOBXP
+Xc84kmzA242Yoi+qBrIKG7GR4QSeEThTRhYMwSN17A8ZxkJ0Mv0zH3Fyuxkx145c4aWgrgEdZDO6
+gANkBjcUMe0Fy/qRErT9OTTX25Bw9CMGUVGB1/UBjmgtMldFjrcIUMFY4ITjBEGfFksKl2S70tef
+ZGch/kzMoyDgy6/K+dRtHXjc9259mSZV6YP6QH1yKKsVvsHoNxFIQMsT3+BvtTHru9Gz2vi20o+n
+ZqVuNZKvWF+jZqF71Zs1W+Pd61S72OAuJDe6OQ==
+&lt;/ds:Modulus&gt;
+&lt;ds:Exponent&gt;AQAB&lt;/ds:Exponent&gt;
+&lt;/ds:RSAKeyValue&gt;
+&lt;/ds:KeyValue&gt;
+&lt;/ds:KeyInfo&gt;
+&lt;ds:Object Id="Signature402388-Object966102"&gt;&lt;etsi:QualifyingProperties Target="#Signature402388"&gt;&lt;etsi:SignedProperties Id="Signature402388-SignedProperties413341"&gt;&lt;etsi:SignedSignatureProperties&gt;&lt;etsi:SigningTime&gt;2025-09-16T20:35:58-05:00&lt;/etsi:SigningTime&gt;&lt;etsi:SigningCertificate&gt;&lt;etsi:Cert&gt;&lt;etsi:CertDigest&gt;&lt;ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/&gt;&lt;ds:DigestValue&gt;yqlpatNAD85pCMJsp8/zKUZqZkk=&lt;/ds:DigestValue&gt;&lt;/etsi:CertDigest&gt;&lt;etsi:IssuerSerial&gt;&lt;ds:X509IssuerName&gt;CN=AUTORIDAD DE CERTIFICACION SUBCA-2 SECURITY DATA,OU=ENTIDAD DE CERTIFICACION DE INFORMACION,O=SECURITY DATA S.A. 2,C=EC&lt;/ds:X509IssuerName&gt;&lt;ds:X509SerialNumber&gt;283279217&lt;/ds:X509SerialNumber&gt;&lt;/etsi:IssuerSerial&gt;&lt;/etsi:Cert&gt;&lt;/etsi:SigningCertificate&gt;&lt;/etsi:SignedSignatureProperties&gt;&lt;etsi:SignedDataObjectProperties&gt;&lt;etsi:DataObjectFormat ObjectReference="#Reference-ID-743587"&gt;&lt;etsi:Description&gt;comprobante&lt;/etsi:Description&gt;&lt;etsi:MimeType&gt;text/xml&lt;/etsi:MimeType&gt;&lt;/etsi:DataObjectFormat&gt;&lt;/etsi:SignedDataObjectProperties&gt;&lt;/etsi:SignedProperties&gt;&lt;/etsi:QualifyingProperties&gt;&lt;/ds:Object&gt;&lt;/ds:Signature&gt;&lt;/factura&gt;</comprobante><mensajes/></autorizacion></autorizaciones></RespuestaAutorizacionComprobante></ns2:autorizacionComprobanteResponse></soap:Body></soap:Envelope>
